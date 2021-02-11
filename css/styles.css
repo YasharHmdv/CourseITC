@@ -1,0 +1,487 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-size: 16px;
+	font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+	width: 100%;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-position: center center;
+	background: url("../images/dark_tint.png") ,url("../images/Information-Technology-1.jpg");
+	background-size: cover;
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+header{
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+	align-self: flex-start;
+}
+header h1 {
+	position: relative;
+	font-size: 2em;
+	margin-left: 30px;
+	top: 30px;
+	color: white;
+	font-weight: 900;
+	float: left;
+	
+}
+header nav.menu ul{
+	position: absolute;
+	float: right;
+	right: 20px;
+	top: 30px;
+}
+header nav.menu ul li{
+	display: block;
+	padding: 20px;
+	float: left;
+}
+header nav.menu ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #D6D8D8;
+	font-weight: 100;
+}
+header nav.menu ul li a:hover{
+
+	color: white;
+	transition: color 0.5s ease-in-out;
+}
+h2.altbasliq{
+	color: whitesmoke;
+	font-size: 3em;
+	margin-bottom: 20px;
+	font-family: 'Big Shoulders Display', cursive;
+	letter-spacing: 10px;
+}
+.banner .yazi p{
+	font-size: 1.5em; 
+	color: #E3E3E3;
+	line-height: 1.5em;
+	margin-bottom: 50px;
+}
+.button a{
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	padding: 15px 40px;
+	background: #3cadd4;
+	border-radius: 20px;
+} 
+.button a:hover{
+	background: #61c1e1;
+	transition: background-color 0.3s ease-in-out;
+}
+/*.yazi ul li a:hover{
+	color: #257229;
+}*/
+section.part1{
+	width: 100%;
+	background: #f5f5f5;
+	padding: 100px 0;
+	text-align: center;
+	margin-bottom: 0.5em;
+	
+}
+.part1 h2{
+	color: #474747;
+	font-size: 3em;
+	font-weight: 700;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+.part1 h2+p{
+	color: #858585;
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.part1 .box{
+	flex-basis: 300px;
+	flex-shrink: 0;
+	flex-grow: 1;
+	background: #fff;
+	text-align: center;
+	padding: 20px 0;
+	margin-right: 20px;
+	align-self: flex-start;
+	align-self: stretch;
+}
+.part1 .box:nth-last-child(1){
+	margin-right: 0;
+}
+.part1 .box i{
+	font-size: 2em;
+	border-radius: 50%;
+	padding: 48px;
+	color: white;
+	
+}
+.part1 .box i.first{
+	background: #63D0F8;
+}
+.part1 .box i.second{
+	background: #58EF77;
+}
+.part1 .box i.third{
+	background: #FD5292;
+}
+.part1 .box h3{
+	font-size: 18px;
+	color: #555555;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.part1 .box p{
+	font-size: 20px;
+	color: #2E2E2E;
+	font-weight: 200;
+	padding: 0 30px 20px 30px;
+	line-height: 1.5em;
+}
+section.part2{
+	width: 100%;
+	background: #fff;
+	border-top: 1px solid #d1d1d1;
+	box-sizing: border-box;
+	text-align: center;
+	display: block;
+	padding-top: 80px;
+	
+}
+section.part2 h2{
+	font-size: 2.5em;
+	color: #474747;
+	margin-bottom: 20px;
+	font-weight: 900;
+}
+section.part2 h2+p{
+	font-size: 1.5em;
+	margin: 10px 20px;
+	margin-bottom: 80px;
+	color: #858585;
+}
+
+section.part2 .persons{
+	width: 100%;
+	border-top: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.part2 .person{
+	flex-basis: 220px;
+	margin: 50px 10px;
+	text-align: left;
+	flex-grow: 1;
+}
+.part2 .person img{
+	border-radius: 50%;
+	width: 100px;
+	margin: 5px 15px;
+	float: left;
+}
+.part2 .person h3{
+	margin-top: 15px;
+	font-size: 1em;
+	margin-bottom: 5px;
+}
+section.part2 h3+p{
+	margin-top: 5px;
+}
+section.part2 article{
+	margin: 50px auto;
+	width: 80%;
+}
+section.part2 article p{
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #444;
+}
+section.part2 ul li a{
+	background: #3cadd4;
+	border-radius: 20px;
+	cursor: pointer;
+	padding: 1em 2.5em;
+	text-align: center;
+	margin-top: 15px;
+	border: 0;
+	display: inline-block;
+	font-weight: 500;
+	font-size: 1.4em;
+	text-decoration: none;
+	color: #fff;
+}
+section.part2 ul li a:hover{
+	background: #61c1e1;
+	transition: background-color 0.5s ease-in-out;
+}
+section.part3 {
+	width: 100%;
+	display: block;
+	background: url("../images/dark_tint.png") ,url("../images/Information-Technology-1.jpg");
+	background-attachment: fixed;
+	text-align: center;
+	padding: 50px 0 10px;
+}
+section.part3 h2{
+	font-size: 3em;
+	color: #fff;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+section.part3 h2+p{
+	font-size: 1.5em;
+	color: whitesmoke;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+section.part3 .container .form{
+	width: 600px;
+	margin: 25px auto;
+}
+section.part3 .container .form input[type=nametxt]{
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 3px 10px;
+	color: #444;
+	font-size: 1em;
+	
+}
+section.part3 .container .form input[type=mailtxt]{
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 3px 10px;
+	color: #444;
+	font-size: 1em;
+	
+}
+section.part3 .container .form textarea{
+	width: 430px;
+	height: 150px;
+	border-radius: 5px;
+	padding: 3px 10px;
+	color: #fff;
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+section.part3 .container .form [type=submit]{
+	margin-top: 15px;
+	font-size: 1.5em;
+	padding: 15px 30px;
+	color: white;
+	background-color: darkslategrey;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 0;
+}
+section.part3 .container .form [type=submit]:hover{
+	background-color: lightslategrey;
+	transition: background-color 0.5s ease-in-out;
+}
+
+footer {
+	width: 100%;
+	padding: 30px 0;
+	background-color: #383b43;
+}
+footer .container{
+	margin-top: 25px;
+	border-bottom: 1px solid #979797
+}
+footer .footerbox{
+	;
+	margin-left: 20px;
+	width: 200px;
+}
+footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+footer .container ul{
+	float: left;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+footer .container ul a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 0.9em;
+	line-height: 2em;
+			
+}
+footer .container ul a:hover{
+	text-decoration: underline;
+ 	color: white;
+	transition: color 0.5s ease-in-out;
+}
+footer .social {
+	width: 1000px;
+	margin: 0 auto;
+}
+footer .social .lisance {
+	width: 100%;
+	margin: 25px 5px;
+}
+footer .lisance p{
+	color: darkgray;
+	display: inline-block;
+	float: left;
+}
+footer .icons {
+	float: right;
+	margin-bottom: -20px;
+	margin-top: -15px;
+	margin-right: 5px;
+}
+footer .icons i{
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	padding: 10px;
+	border-radius: 50%;
+	font-size: 1.5em;
+	cursor: pointer;
+	color: white;
+	
+}
+.temizle{clear: both;}
+
+footer .icons i.fb{
+	background: #3b5998;
+}
+footer .icons i.twt{
+	background: #00acee;
+}
+footer .icons i.insta{
+	background: #bc2a8d;
+}
+
+@media screen and (max-width: 980px){
+	.banner{
+		height: 60vh;
+	}
+	h2.altbasliq{
+		font-size: 2em;
+	}
+	.banner .yazi p{
+		font-size: 1em;
+	}
+	.button a{
+		font-size: 0.8em;
+		padding: 10px 25px;
+		border-radius: 15px;
+	}
+	.part1 .box{
+		flex-basis: 100%;
+		
+	}
+	.part2 .person{
+		flex-basis: 40%;
+	}
+	footer .footerbox {
+		flex-basis: 40%;
+		
+	}
+
+}
+@media screen and (max-width: 600px){
+	.part2 .person{
+		flex-basis: 100%;
+		text-align: center;
+	} 
+	.part2 .person img{
+		text-align: center;
+		float: none;
+	}
+	footer .footerbox{
+		flex-basis: 100%;
+		margin: 10px 20px;
+		text-align: center;
+	}
+	footer .icons{
+		clear: both;
+		float: none;
+	}
+	footer .social .lisance{
+		width: 100%;
+	}
+	footer .lisance p {
+		
+		margin: 20px auto;
+		
+	}
+	.social {
+		float: none;
+		text-align: center;
+	}
+	footer .icons i{
+		margin-top: 20px;
+		
+	}
+	.part3 .container .form{
+		width: 100%;
+		margin: 70px auto;
+	}
+	section.part3 .container .form input[type=nametxt]{
+		width: 80%;
+		margin-bottom: 5px;
+	}
+	section.part3 .container .form input[type=mailtxt]{
+		width: 80%;
+		margin-bottom: 5px;
+	}
+	section.part3 .container .form textarea{
+		width: 80%;
+		height:  150px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
